@@ -1,0 +1,27 @@
+#container__character {
+  height: 100vh;
+  background-image: url(../../imgs/nana-7.jpeg);
+  background-size: cover;
+}
+
+.main-screen__character {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px #212121;
+  color: #fafafa;
+  margin-right: 12%;
+}
+
+.my-character__title {
+  font-size: 30px;
+}
+
+.main-screen__character span {
+  display: block;
+  margin-top: 12px;
+}

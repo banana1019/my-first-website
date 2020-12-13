@@ -1,0 +1,21 @@
+#container__goal {
+  height: 100vh;
+  background-image: url(../../imgs/nana-4.jpeg);
+  background-size: cover;
+}
+
+.main-screen__goal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 0px 0px 2px #fafafa;
+}
+
+.main-screen__goal span {
+  display: block;
+  margin-top: 10px;
+}

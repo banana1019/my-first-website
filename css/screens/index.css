@@ -1,0 +1,7 @@
+#container__index {
+  height: 100vh;
+  background-image: url(../../imgs/nana-3.jpeg);
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

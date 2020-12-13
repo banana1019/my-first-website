@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap");
+
+@import "reset.css";
+
+/* Components */
+@import "components/nav-bar.css";
+@import "components/sidebar.css";
+
+/* Screen */
+@import "screens/index.css";
+@import "screens/intro.css";
+@import "screens/character.css";
+@import "screens/taste.css";
+@import "screens/travel.css";
+@import "screens/goal.css";
+
+body {
+  font-family: "Roboto Slab", "Nanum Gothic", serif;
+  color: #212121;
+  height: 100vh;
+}

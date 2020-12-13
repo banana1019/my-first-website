@@ -1,0 +1,43 @@
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: 500;
+  text-shadow: 0px 0px 2px #fafafa, 0px 0px 2px #fafafa;
+}
+
+.nav__logo {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__icons {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.nav__btn {
+  padding: 8px 5px;
+  margin: 8px 5px;
+}
+
+.nav__btn:hover {
+  transform: scale(1.2);
+}
+
+.nav__btn a {
+  font-size: 20px;
+  font-weight: 700;
+}
